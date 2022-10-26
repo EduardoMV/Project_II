@@ -4,5 +4,28 @@
     "ejs": "^3.1.8",
     "express": "^4.18.2",
     "express-fileupload": "^1.4.0"
-  }
+  },
+  "name": "project_ii",
+  "description": "Project for the web development class in which we implemented technologies as Ejs, Express and node.js",
+  "version": "1.0.1",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMV/Project_II.git"
+  },
+  "keywords": [
+    "P2"
+  ],
+  "author": "EUMV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoMV/Project_II/issues"
+  },
+  "homepage": "https://github.com/EduardoMV/Project_II#readme"
 }
