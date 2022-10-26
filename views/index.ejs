@@ -20,9 +20,9 @@
                             <h5 class="card-title"><%= post["Author_name"] %></h5>
                             <p class="card-text">
                             <% if(post["Content"].length > 300){ %>
-                                <%= post["Content"].substring(0, 300) + "..." %>
+                                <%- post["Content"].substring(0, 300) + "..." %>
                             <% } else { %>
-                                <%= post["Content"] %>
+                                <%- post["Content"] %>
                             <% } %>
                             </p>
                             <div class="row mt-4">
