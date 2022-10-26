@@ -42,7 +42,7 @@ posts=[{
             "Img": "/images/posts/key.jpg",
             "Author_name": "Eduardo Martínez",
             "Author_img": "/images/authors/Eduardo_MV.jpeg",
-            "Author_abt": "Hello, my name is Eduardo Ulises Martínez Vaca and I'm a sciene computer engeneer student passionate about cybersecurity and internet of things, the development of new technologies and the implementation of optimizing process with daily tools through tech."
+            "Author_abt": "Hello, my name is Eduardo Ulises Martínez Vaca and I'm a Computer science student passionate about cybersecurity and internet of things, the development of new technologies and the implementation of optimizing process with daily tools through tech."
         }];
 
 app.get("/", (req, res) => {
